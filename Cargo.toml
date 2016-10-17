@@ -1,6 +1,6 @@
 [package]
 name = "futures"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Alex Crichton <alex@alexcrichton.com>"]
 license = "MIT/Apache-2.0"
 readme = "README.md"
@@ -10,12 +10,12 @@ homepage = "https://github.com/alexcrichton/futures-rs"
 documentation = "https://docs.rs/futures"
 description = """
 An implementation of futures and streams featuring zero allocations,
-composability, and iterator-like interfaces.
-"""
+   composability, and iterator-like interfaces.
+   """
 
-[dependencies]
-log = { version = "0.3", default-features = false }
+   [dependencies]
+   log = { version = "0.3", default-features = false }
 
-[features]
-use_std = []
-default = ["use_std"]
+   [features]
+   use_std = []
+   default = ["use_std"]
